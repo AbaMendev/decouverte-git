@@ -24,11 +24,12 @@
         </nav> 
     </div>
     <!-- Il est préférable d'écrire le code plutôt que d'effectuer un copié/collé -->
-        <div id="diaporama" class="carousel slide" data-bs-ride="carousel">
+    <section class="container mt-5">
+        <div id="diaporama" class="carousel slide" data-bs-ride="carousel"    >
             <!-- Ajouter : data-bs-ride="carousel" à l'interieur de la div parent pour faire fonctionner le diaporama-->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://images.pexels.com/photos/987967/pexels-photo-987967.jpeg" class="d-block w-100" alt="...">
+                <img src="https://images.pexels.com/photos/987967/pexels-photo-987967.jpeg" height="" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="https://images.pexels.com/photos/1692984/pexels-photo-1692984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
@@ -47,11 +48,44 @@
             </button>
             <!-- Il ne faut pas ecrire le code des boutons faire copié/collé sur le site de bootstrap-->
           </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Nous contacter</h2>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="from-control" id="email" placeholder="name@example.com">
+                            <label for="email"></label>
+                        </div> 
+                        <div class="form-floating mb-3">     
+                            <textarea id="message" rows="10" placeholder="votre message" class="form-control" style="height:200px"></textarea>
+                            <label for="message">votre message</label>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-primary btn-sm">
+                        </div>   
+                    </form>
+                </div>
+                <div class="col">
+                    <h2>Nos locaux</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1856.345583101678!2d2.3980357970890895!3d48.8530787400808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbfbe04cda0270a12!2sDORANCO%20%C3%89cole%2C%20CFA%20et%20Organisme%20de%20Formation%20%7C%20CAMPUS%20PARIS%20NATION!5e0!3m2!1sfr!2sfr!4v1674740709173!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- Pour ajouter une map => EX: taper Doranco maps / cliquer sur la map /appuyer sur partager et cliquer sur Intégrer une carte / COPIER LE CONTENU HTML /la coller entierement dans le body -->
+                </div>
+            </div>
+        </section>
 <!-- 
     --- Pour lancer ces enregistrements => git init
-    git add index.html
-    git commit -m "création de la barre menu avec bootstrap"
-    git commit -m "ajouter diaporama"
+1-   git add index.html
+            .
+            .
+            .
+2-   git commit -m "création de la barre menu avec bootstrap"
+2-   git commit -m "ajouter diaporama"
+2-   git commit -m "finalisation du diaporama"
+2-   git commit -m "création du formulaire + maps"
+
+-  gitk
 
 -->
     
