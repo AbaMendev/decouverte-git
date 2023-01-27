@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cas pratique</title>
+    <title>Squirrel Land</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <div class="bg-dark">
         <nav class="navbar navbar-expand container navbar-dark">
-            <span class="navbar-brand fs-1">
-                🐿️
+           <a href="index.html"><span class="navbar-brand fs-1">
+            🐿️
             </span>
+        </a>
             <ul class="navbar-nav">
-                <li class="nav-item"> <a href="#" class="nav-link">Accueil</a>
+                <li class="nav-item"> <a href="index.html" class="nav-link active">Accueil</a>
                 </li>
-                <li class="nav-item"> <a href="#" class="nav-link">Blog</a>
+                <li class="nav-item"> <a href="blog.html" class="nav-link">Blog</a>
                 </li>
-                <li class="nav-item"> <a href="#" class="nav-link">Contact</a>
+                <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a>
                 </li>
             </ul>
-            <h1 style="color: aliceblue; display : inline ; text-align: center;">Squirrel Land</h1>
+            <h1 style="color: aliceblue; ">Squirrel Land</h1>
         </nav> 
     </div>
     <!-- Il est préférable d'écrire le code plutôt que d'effectuer un copié/collé -->
@@ -47,7 +48,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-            <!-- Il ne faut pas ecrire le code des boutons faire copié/collé sur le site de bootstrap-->
+            <!-- Il ne faut pas réécrire le code des boutons faire copié/collé sur le site de bootstrap-->
           </div>
         </section>
         <section class="container">
@@ -81,8 +82,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="https://images.pexels.com/photos/418831/pexels-photo-418831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="Article 1" style="color: rgb(221, 130, 20);">Card title</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="Article 1" style="color: rgb(221, 130, 20);">Article 1</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam officia facere sed nisi, sunt non ratione adipisci magnam, praesentium nemo rem error! Velit, necessitatibus reiciendis nisi deleniti soluta obcaecati excepturi.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div> 
@@ -91,8 +92,8 @@
                     <div class="card" style="width: 18rem;">
                         <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="Article 2" style="color: rgb(221, 130, 20);">Card title</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="Article 2" style="color: rgb(221, 130, 20);">Article 2</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus enim soluta id ab vitae optio consequuntur voluptates perspiciatis saepe in eius corrupti deleniti sed numquam odio, perferendis nam libero.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -101,15 +102,15 @@
                     <div class="card" style="width: 18rem;">
                         <img src="https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="Article 3" style="color: rgb(221, 130, 20);">Card title</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h3 class="Article 3" style="color: rgb(221, 130, 20);">Article 3</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repellat deleniti quisquam aspernatur voluptate esse soluta sapiente nesciunt obcaecati quae nemo, quidem perspiciatis quis aut, vero, molestiae adipisci quibusdam magnam!</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
             </div> 
         </section>
-<!-- 
+<!-------------------------------------------- A REVOIR A REVOIR A REVOIR----------------------------------------------
     --- Pour lancer ces enregistrements => git init
 1-   git add index.html
             .
@@ -120,6 +121,18 @@
 2-   git commit -m "finalisation du diaporama"
 2-   git commit -m "création du formulaire + maps"
 2-   git commit -m "3 articles"
+2-   git commit -m "création page blog"
+2-   git commit -m "fin de la branch page-blog"
+
+    git checkout master
+
+    git merge page-blog
+
+
+
+pour enregistre ctrls
+
+    git add --all    =>enregistrement de toutes les modifications
 
     ------une fois fini
 2-   gitk   => pour ouvrir 
@@ -128,8 +141,36 @@
      checkout + id permet de visualiser la page à ce moment de la construction du site.
      master => revenir dans le présent
 
+A revoir : il faut créer une branch pour effectuer les avancements sur dossier 
+Ne pas travailler sur la banche master.  A REVOIR A REVOIR A REVOIR                                                            
+
+
 -->
-    
+
+<footer class="bg-dark" style="color:aliceblue ; font-size: 10px; padding: 30px; display: flex-center; text-align: center ;" >
+    <section class="row">
+        <div class="col">
+            <h5>Nous contacter</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col">
+            <h5>Nos services</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="col">
+            <h5>A propos de nous</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        
+    </section>
+
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

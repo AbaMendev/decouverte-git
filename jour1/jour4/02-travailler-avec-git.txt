@@ -1,0 +1,39 @@
+Travailler avec Git sur un projet :
+1) créer un repository = un "dossier"/dépot dans lequel git va stocker l'évolution de notre projet.
+
+    > Lancer l'exploreur windows 
+    > aller dans notre dossier
+    > aller dans la barre d'adresse et rajouter "cmd" au début de l'adresse avec un espace et appuyer sur entrée.
+    > taper "git init" => Initialized empty Git repository in C:/Users/stagiaire/Desktop/GIT/.git/ ==>
+
+    Par défaut on l'appel = dossier caché, si on ouvre le dossier il n'est pas visible. Pour le visualiser il faut taper le nom repris dans la commande dans la barre d'adresse ou cliquer sur le dossier dans la barre d'adresse et rajouter \.git à la suite puis entrée = " C:\Users\stagiaire\Desktop\GIT\.git " 
+    On appel ce dossier un repository, c'est dedans que va être stocker le versioning.
+    Il ne faut jamais modifier/écrire dans ce dossier, c'est via le terminal que l'on va effectuer ces modifications.
+
+    -------Cas pratique-----------
+    Dans le dossier GIT créer un nouveau fichier " index.html "
+     > installer bootstrap
+     > créer un menu (Navbar) , 3 liens : Accueil, Blog et Contact
+    -------------------------------------------------------
+    Etape suivante : 
+        > Commencer à suivre mon travail avec les commandes suivantes:
+            - git add index.html
+            - git commit -m "création de la barre menu avec bootstrap" =>
+                [master (root-commit) 032f811] création de la barre menu avec bootstrap
+                1 file changed, 28 insertions(+)
+                create mode 100644 index.html
+    -------------------------------------------------------
+    A la suite du diaporama
+    deux colonnes
+        1er : colonne contient un formulaire
+                champs saisir un email
+                champs saisir un commentaire
+
+        2ème : google map
+
+    -------------------------------------------------------
+
+    Mettre 3 article avec <card> les uns a coté des autres
+
+
+-------------------------------------------------------

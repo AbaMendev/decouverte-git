@@ -1,0 +1,9 @@
+Taper download Git dans google:
+https://git-scm.com/downloads
+version 2.39.1 download for windowns
+
+-> poursuivre l'installation, fermer le terminal, le rouvrir => taper"git --version"
+
+On va ensuiter ajouter des informations auprès de GIT : Pour savoir : Qui est en train de travailler? 
+    => git config --global user.name "Abandé M"
+    => git config --global user.email "marieabande@gmail.com"

@@ -1,0 +1,56 @@
+Support : https://formation.webdevpro.net/git
+Nom d'utilisateur :
+Mot de passe : 
+
+------------>> Git / GitHub <<------------
+C'est un outil qui permet de versionner.
+
+>Projet informatique => ecrire du code qui peut évoluer ou se perdre
+=> plus on avance dans le projet plus on arrive sur des fonctionnalités que l'on ne connait pas/ dont on entends parler pour la première fois => pour eviter de modifier le mauvais fichier / et planter le projet.
+ =>> permet donc d'avoir une sauvegarde et plusieurs version de notre projet.
+
+ ..... à REPRENDRE.....
+
+ Linus Torvalds => a créé le noyau Linux en 1991
+                => inventeur de Git
+ Avant Git il existé SVN : mais = lent et peu efficace d'ou le besoin de Linus Torvalds de créer Git
+
+ !!! Git et GitHub = pas la même chose, sont complémentaires mais deux outils différents
+
+ Git = outil de versioning => répond à 4 question
+    > QUEL fichier?
+    > QUI la modifier?
+    > QUAND il à été modifier?
+    > POURQUOI il à été modifier?
+
+Lors du traitement d'un PROJET se poser ces questions en permanence sur tout les fichiers et y répondre.
+
+Git à plusieur version => il s'adresse donc à plusieurs "client"
+    > version en ligne de commande
+    > des petits logiciels avec des boutons
+    > VSC avec des modules/"extention" que l'on retrouve sur le coté sur la barre latérale primaire.
+
+    On va voir durant les prochains jours :
+    I - SQlite ->VSC
+    II - My SQL -> phpMyAdmin
+    III - ligne de commande
+    IV - modules Visual Studio
+
+    -----
+    III - Les outils en ligne de commande
+    Taper "cmd" dans la barre de recherche PC pour ouvrir l'"Invite de commandes" => c'est 
+        > on ne peut utiliser que le clavier pas la souris
+        > il n'y a pas de menu/assistance
+        >taper du texte >entrer > l'outil va nous réponde ...
+    
+    Quelques lignes de commande à connaitre :
+    !! toujours mettre une espace entre le binaire/logiciel et le nom de la commande ex: cd stagiaire !!
+        > dir : donne la liste de tout les fichiers en cours
+        > cls : pour nettoyer l'ecran
+        > cd : change de dossier = change directory (=en anglais)
+        > cd .. : remonte dans le dossier parent
+        > cd "nom de dossier" : 
+        > tree : liste complète de tout les fichiers de tout l'ordinateur
+        > tree /F : on appel cela le drapeau/flag => l'integralité du contenu de l'ordinateur.
+        > tree /A : c'est un flag.
+
